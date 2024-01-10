@@ -2,6 +2,12 @@
 
 The Lisa Lite is an adapter card for the Lisa 2 and 2/5 that allows a Twiggy drive to be replaced by a 400K Sony 3.5" floppy drive. Most of the signals are passed directly from the Twiggy interface to the Sony interface, though the motor clock signal on the Twiggy side is used as the basis (along with a 5MHz oscillator) for generating the PWM signal used to drive the Sony drive.
 
+![Lisa Lite Front](/images/pcb_front_render.png)
+
+![Lisa Lite Rear](/images/pcb_rear_render.png)
+
+
+
 ## Assembly
 
 There is little to explain in terms of assembly, as the card uses relative few components. It should be noted that it is recommended to use keyed connectors for the Twiggy and Sony ribbon cable connectors. Inserting the cables backwards will result in the +12V power rail being piped into the CA0, CA1, CA2, and LSTRB lines on the Sony drive and the READ and MTRCLK lines on the Twiggy interface; this will likely destroy any ICs on these lines and possibly other passive and/or electromechanical components.

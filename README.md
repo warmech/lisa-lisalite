@@ -22,4 +22,4 @@ Once the card is installed and connected, no further action is required for use;
 
 This card is unnecessary on a 2/10, which uses an IC on the I/O card to handle communications with a Sony drive. Additionally, an 800K drive may be used in conjunction with a Sun Remarketing ROM intended for use with the Macintosh XL.
 
-This is a very simple design that I would like to eventually replace with a small CPLD for use in an ATX form-factor Lisa. As it's so tiny a curcuit, the Verilog required for this practically writes itself.
+This is a very simple design that I would like to eventually replace with a small CPLD for use in an ATX form-factor Lisa. As it's so tiny a circuit, the Verilog required for this practically writes itself.
